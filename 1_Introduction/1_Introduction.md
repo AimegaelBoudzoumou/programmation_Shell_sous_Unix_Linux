@@ -30,6 +30,6 @@ Le shell commun à tous les Linux est le bash (/usr/bin/bash ou /bin/bash).
 
 _Note_: 
 
-- En pages 25 et 26 du livre se trouve un tableau qui référence les shells disponibles en standard sur les plateformes Linux et Unix.
+- En pages 25 et 26 du livre _[programmation-shell-sous-unix-linux](https://www.editions-eni.fr/livre/programmation-shell-sous-unix-linux-ksh-bash-norme-posix-avec-exercices-corriges-7e-edition-9782409038020)_ se trouve un tableau qui référence les shells disponibles en standard sur les plateformes Linux et Unix.
 
 - Le livre détaille les fonctionnalités du Bourne Again shell et des Korn shell (ksh88 et ksh93) et signale la compatibilité Bourne shell et POSIX.
