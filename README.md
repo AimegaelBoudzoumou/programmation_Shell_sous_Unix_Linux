@@ -8,7 +8,7 @@ Chaque chapitre du livre est représenté par un répertoire dans ce document.
 
 Les commandes Unix/Linux et les scripts seront testées dans un _terminal_ sous __Ubuntu 18.04.5 LTS__
 
-Contenu:
+__Contenu :__
 
 1. Introduction
 2. Mécanismes essentiels du shell
