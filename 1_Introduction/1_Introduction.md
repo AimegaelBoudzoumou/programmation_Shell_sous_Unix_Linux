@@ -8,9 +8,9 @@ Plusieurs shell sont disponibles sur les plateformes Unix.
 
 # 2. Avec quel shell programmer ?
 
-Il faur privilégier un shell compatible avec la norme Posix.
+Il faur privilégier un shell compatible avec la norme POSIX.
 
-Programmer en utilisant la norme Posix permet d'assurer une portabilité maximale entre les shells conforme à cette spécification, mais est très limité du point de vue des fonctionnalités.
+Programmer en utilisant la norme POSIX permet d'assurer une portabilité maximale entre les shells conforme à cette spécification, mais est très limité du point de vue des fonctionnalités.
 
 ## Quel interpréteur va exécuter un script ?
 
@@ -20,7 +20,13 @@ Si cette instruction est absente, c'est le shell par défaut de l'utilisateur (o
 dans la variable d'environnement __SHELL__.
 
 ```sh
-nl /etc/rc4.d/S01cron
+cat /etc/shells
 ```
 
-![image](https://github.com/user-attachments/assets/38c9b134-1190-49af-a62c-706d16171390)
+```sh
+nl /etc/rc4.d/S01cron
+```
+Le shell commun à tous les Linux est le bash (/usr/bin/bash ou /bin/bash).
+
+Note : en pages 25 et 26 du livre se trouve un tableau qui référence les shells disponibles en standard sur les plateformes Linux et Unix.
+Le livre détaille les fonctionnalités du Bourne Again shell et des Korn shell (ksh88 et ksh93) et signale la compatibilité Bourne shell et POSIX.
