@@ -16,8 +16,11 @@ Programmer en utilisant la norme Posix permet d'assurer une portabilité maximal
 
 Pour savoir quel interpréteur sera utilisé, il faut regarder la première ligne du script. Si celle-ci commence par __#!__ , le nom de l'interpréteur est mentionné derrière ces deux caractères. Cette instruction est facultative.
 
-Si cette instruction est absente, c'est le shell par défaut de l'utilisateur (ou du contexte) qui sera utilisé. L'interpréteur par défaut d'un utilisateur est contenu dans la variable d'environnement __SHELL__.
+Si cette instruction est absente, c'est le shell par défaut de l'utilisateur (ou du contexte) qui sera utilisé. L'interpréteur par défaut d'un utilisateur est contenu 
+dans la variable d'environnement __SHELL__.
 
--- file:///home/chris/Downloads/Screenshot%20from%202024-11-11%2019-03-24.png
+```sh
+nl /etc/rc4.d/S01cron
+```
 
 ![image](https://github.com/user-attachments/assets/38c9b134-1190-49af-a62c-706d16171390)
