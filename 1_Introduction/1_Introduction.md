@@ -18,6 +18,6 @@ Pour savoir quel interpréteur sera utilisé, il faut regarder la première lign
 
 Si cette instruction est absente, c'est le shell par défaut de l'utilisateur (ou du contexte) qui sera utilisé. L'interpréteur par défaut d'un utilisateur est contenu dans la variable d'environnement __SHELL__.
 
-file:///home/chris/Downloads/Screenshot%20from%202024-11-11%2018-57-14.png![image](https://github.com/user-attachments/assets/2c839757-ed27-4b0d-aeef-fec4375d451e)
+-- file:///home/chris/Downloads/Screenshot%20from%202024-11-11%2019-03-24.png
 
-
+![image](https://github.com/user-attachments/assets/38c9b134-1190-49af-a62c-706d16171390)
