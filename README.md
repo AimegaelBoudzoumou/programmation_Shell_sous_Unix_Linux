@@ -6,7 +6,7 @@ Ce document est un résumé de ma lecture du livre intitulé _Programmation Shel
 
 Chaque chapitre du livre est représenté par un répertoire dans ce document.
 
-Les scripts et les commandes Unix/Linux seront testées dans un terminal sous __Ubuntu 18.04.5 LTS__
+Les commandes Unix/Linux et les scripts seront testées dans un _terminal_ sous __Ubuntu 18.04.5 LTS__
 
 Contenu:
 
