@@ -8,7 +8,7 @@ Chaque chapitre du livre est représenté par un répertoire dans ce document.
 
 Attention : la numérotation des rubriques dans ce document, diffère de celle du livre.
 
-Les commandes Unix/Linux et les scripts seront testées dans un _terminal_ sous __Ubuntu 18.04.5 LTS__
+Les commandes Unix/Linux et les scripts seront testés dans un _terminal_ sous __Ubuntu 18.04.5 LTS__
 
 __Contenu :__
 
