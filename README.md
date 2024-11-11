@@ -4,3 +4,21 @@ Ce document est un résumé de ma lecture du livre intitulé _Programmation Shel
 
 [Lien vers le site web du livre](https://www.editions-eni.fr/livre/programmation-shell-sous-unix-linux-ksh-bash-norme-posix-avec-exercices-corriges-7e-edition-9782409038020)
 
+Chaque chapitre du livre est représenté par un répertoire dans ce livre.
+
+Les scripts et les commandes Unix/Linux seront testées dans un terminal sous __Ubuntu 18.04.5 LTS__
+
+Contenu:
+
+1. Introduction
+2. Mécanismes essentiels du shell
+3. Paramétrage de l'environnement de travail
+4. Les bases de la programmation shell
+5. Aspects avancés de la programmation shell
+6. Les expressions régulières
+7. La commande sed
+8. Le langage de programmation awk
+9. Les commandes filtres
+10. Comment faire... (synthèse)
+11. Compléments sur les mécanismes internes du shell
+12. Annexes
