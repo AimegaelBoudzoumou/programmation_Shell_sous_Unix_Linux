@@ -55,3 +55,11 @@ pwd
 ```
 
 Pour forcer l'exécution de la commande externe, il faut indiquer explicitement l'emplacement de la commande (en absolu ou en relatif) :
+
+```bash
+/usr/bin/pwd
+```
+```bash
+cd /usr/bin
+./pwd
+```
