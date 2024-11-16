@@ -31,3 +31,27 @@ __type__ elle-même est une commande interne.
 
 
 ## 3. Implémentation interne et implémentation externe
+Certaines commandes ont une implémentation interne et une implémentation externe.
+Dans ce cas :
+
+- la commande interne est lancée en priorité ;
+- l'exécution d'une commande interne est plus rapide que l'exécution d'une commande externe ;
+- la commande __type__ indique la commande est interne, mais ne précise pas qu'il existe également une implémentation externe. 
+
+Exempmle : la commande __pwd__ est une commande interne du shell.
+
+```sh
+type pwd
+```
+
+La commande __pwd__ possède également une implémentation externe.
+```sh
+ls -l /usr/bin/pwd
+```
+
+C'est la commande interne  qui est exécutée en priorité :
+```sh
+pwd
+```
+
+Pour forcer l'exécution de la commande externe, il faut indiquer explicitement l'emplacement de la commande (en absolu ou en relatif) :
