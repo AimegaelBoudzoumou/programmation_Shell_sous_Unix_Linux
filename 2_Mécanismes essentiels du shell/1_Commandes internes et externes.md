@@ -63,3 +63,17 @@ Pour forcer l'exécution de la commande externe, il faut indiquer explicitement 
 cd /bin
 ./pwd
 ```
+
+Exemple : 
+```sh
+cd Documents/
+mkdir shell_sous_Unix_Linux
+cd shell_sous_Unix_Linux/
+mkdir scripts
+ln -s scripts lienscript
+ls -l
+cd lienscript
+pwd # la commande interne pwd affiche le nom du lien : /home/aimegael/Documents/shell_sous_Unix_Linux/lienscript
+/bin/pwd # la commande externe affiche le nom du répertoire réel : /home/aimegael/Documents/shell_sous_Unix_Linux/scripts
+```
+Le fichier __lienscript__ est un lien symbolique vers le un répertoire Nous voyons que la commande interne __pwd__ affiche le nom du lien comme répertoire, tandis que la commande externe affiche le nom du répertoire.
