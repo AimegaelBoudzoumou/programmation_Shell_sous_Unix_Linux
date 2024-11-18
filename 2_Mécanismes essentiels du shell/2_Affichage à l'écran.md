@@ -19,7 +19,7 @@ La commande __echo__ du bash devra être avec l'option __-e__ pour que l'interpr
 | :------------------------- |:------------------------------------------------:|
 | \\\                        |   Antislash                                      |
 | \a                         |   Sonnerie                                       |
-| \b                         |   Effacement du caractère précédentSonnerie      |
+| \b                         |   Effacement du caractère précédent              |
 | \c                         |   Suppression du saut de ligne en fin de ligne   |
 | \f                         |   Saut de page   |
 | \n                         |   Saut de ligne  |
