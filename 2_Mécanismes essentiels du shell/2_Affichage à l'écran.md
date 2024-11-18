@@ -15,13 +15,17 @@ La commande __echo__ du bash devra être avec l'option __-e__ pour que l'interpr
 
 ## Liste des caractères d'échappement
 
-| Caractères d'échappement   | Signification   |
-| :------------------------- |:---------------:|
-| \\                         |   Antislash     |
-| \a                         |   Sonnerie      |
+| Caractères d'échappement   | Signification                                    |
+| :------------------------- |:------------------------------------------------:|
+| \\                         |   Antislash                                      |
+| \a                         |   Sonnerie                                       |
+| \b                         |   Effacement du caractère précédentSonnerie      |
+| \c                         |   Suppression du saut de ligne en fin de ligne   |
+| \f                         |   Saut de page   |
+| \n                         |   Saut de ligne  |
+| \r                         |   Retour chariot |
+| \t                         |   Tabulation horizontale |
+| \v                         |   Tabulation verticale       |
+| \0xxx                      |   Valur d'un caractère exprimé en octal |
 
-| Aligné à gauche  | Centré          | Aligné à droite |
-| :--------------- |:---------------:| -----:|
-| Aligné à gauche  |   ce texte        |  Aligné à droite |
-| Aligné à gauche  | est             |   Aligné à droite |
-| Aligné à gauche  | centré          |    Aligné à droite |
+
