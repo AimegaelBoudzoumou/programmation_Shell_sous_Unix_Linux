@@ -17,7 +17,7 @@ La commande __echo__ du bash devra être avec l'option __-e__ pour que l'interpr
 
 | Caractères d'échappement   | Signification                                    |
 | :------------------------- |:------------------------------------------------:|
-| \\                         |   Antislash                                      |
+| \\\                        |   Antislash                                      |
 | \a                         |   Sonnerie                                       |
 | \b                         |   Effacement du caractère précédentSonnerie      |
 | \c                         |   Suppression du saut de ligne en fin de ligne   |
