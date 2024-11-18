@@ -16,7 +16,12 @@ La commande __echo__ du bash devra être avec l'option __-e__ pour que l'interpr
 ## Liste des caractères d'échappement
 
 | Caractères d'échappement   | Signification   |
-|                            |                 |
 | :------------------------- |:---------------:|
 | \\                         |   Antislash     |
 | \a                         |   Sonnerie      |
+
+| Aligné à gauche  | Centré          | Aligné à droite |
+| :--------------- |:---------------:| -----:|
+| Aligné à gauche  |   ce texte        |  Aligné à droite |
+| Aligné à gauche  | est             |   Aligné à droite |
+| Aligné à gauche  | centré          |    Aligné à droite |
