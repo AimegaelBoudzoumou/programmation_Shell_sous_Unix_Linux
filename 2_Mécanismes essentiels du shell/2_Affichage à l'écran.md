@@ -28,4 +28,7 @@ La commande __echo__ du bash devra être avec l'option __-e__ pour que l'interpr
 | \v                         |   Tabulation verticale       |
 | \0xxx                      |   Valur d'un caractère exprimé en octal |
 
+## Le caractère \n
+
+Il sert à provoquer un saut de ligne.
 
