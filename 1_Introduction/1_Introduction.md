@@ -1,4 +1,11 @@
-# 1. Définition du shell
+# Introduction
+
+Contenu : 
+
+1. Définition du shell
+2. Avec quel shell programmer ?
+
+## 1. Définition du shell
 
 Le shell est un terme générique désignant un programme qui a pour fonction d'assurer l'interface entre l'utilisateur et le système Unix. 
 
@@ -6,7 +13,7 @@ C'est un interpréteur de commande.
 
 Plusieurs shell sont disponibles sur les plateformes Unix.
 
-# 2. Avec quel shell programmer ?
+## 2. Avec quel shell programmer ?
 
 Il faur privilégier un shell compatible avec la norme POSIX.
 
