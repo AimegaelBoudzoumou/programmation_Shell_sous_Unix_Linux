@@ -1,5 +1,11 @@
 # Commande internes et externes
 
+Contenu : 
+
+1. Commandes externes
+2. Commandes internes
+3. Implémentation interne et implémentation externe
+
 ## 1. Commandes externes
 Une commande externe est un fichier localisé dans l'arborescence. Par exemple, lorsqu'un utilisateur lance la commande __ls__, le shell demande au noyau Unix de charger en mémoire le fichier __/usr/bin/ls__.
 
