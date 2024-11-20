@@ -15,7 +15,9 @@ cp f1 ~/Documents
 
 Si le caractère ~ est immédiatement suivi d'un mot, ce dernier est considéré comme un nom d'utilisateur.
 
-Exemple 1 : la commande suivante permet de recopier le fichier f1 vers sous le répertoire d'accueil de l'utilisateur __sebastien__ (vérifier que les permissions adéquates sont positionnées).
+Exemple 1 : 
+
+La commande suivante permet de recopier le fichier __f1__ vers sous le répertoire d'accueil de l'utilisateur __sebastien__ (vérifier que les permissions adéquates sont positionnées).
 
 ```bash
 cp f1 ~sebastien
