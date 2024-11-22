@@ -12,9 +12,13 @@ cd ~
 
 Se déplacer dans le répertoire d'accueil de l'utilisateur __aimegael__
 ```bash
-pwd
+pwd # affiche : /home/aimegael
 cd ~aimegael
-pwd
+pwd # affiche également : /home/aimegael
 ```
 
-![image](https://github.com/user-attachments/assets/d9a89c69-dc6a-4092-ab5d-0e3e145c0bc6)
+Revenir dans le répertoire précédent avec __cd -__
+
+```sh
+cd -
+```
