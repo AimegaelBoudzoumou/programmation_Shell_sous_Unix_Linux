@@ -1,11 +1,13 @@
 # Substitution de noms de fichiers
 
+Contenu :
+
 1. Expressions basiques : *, ?, []
 2. Expressions étendues
 
-1. Expressions basiques
+## 1. Expressions basiques
 
-1.1. Le caractère *
+### 1.1. Le caractère *
 
 Il représente une suite de caractères quelconques (entre 0 et n caractères).
 
@@ -19,7 +21,7 @@ Exemple 2 : Afficher tous les noms de fichier commençant par la lettre f :
 ls f*
 ```
 
-1.2. La caractère ?
+### 1.2. La caractère ?
 
 Il représente un caractère quelconque.
 
@@ -33,7 +35,7 @@ Exemple 2 : afficher tous les noms de fichier composés de quatre caractères
 ls ????
 ```
 
-1.3. Les caractères []
+## 1.3. Les caractères []
 
 Une paire de crochets représente l'emplacement d'un seul caractère.
 
@@ -51,4 +53,3 @@ Le __!__ se positionne uniquement en première position à l'intérieur des croc
 __[!159a]__ : un caractère qui ne fait pas partie de la liste 1 5 9 a
 __[!A-Z0-9i]__ : un caractère qui n'est ni une majuscule, ni un chiffre, ni la lettre i
 
-1.3. , []
