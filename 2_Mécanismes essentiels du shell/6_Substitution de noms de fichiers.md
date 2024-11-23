@@ -11,12 +11,12 @@ Contenu :
 
 Il représente une suite de caractères quelconques (entre 0 et n caractères).
 
-Exemple 1 : Afficher tous les noms de fichier se terminant par .c :
+_Exemple 1_ : Afficher tous les noms de fichier se terminant par .c :
 ```sh
 ls *.c
 ```
 
-Exemple 2 : Afficher tous les noms de fichier commençant par la lettre f :
+_Exemple 2_ : Afficher tous les noms de fichier commençant par la lettre f :
 ```sh
 ls f*
 ```
@@ -25,12 +25,12 @@ ls f*
 
 Il représente un caractère quelconque.
 
-Exemple 1 : afficher tous les noms de fichier ayant une extension composée d'un seul caractère
+_Exemple 1_ : afficher tous les noms de fichier ayant une extension composée d'un seul caractère
 ```sh
 ls *.?
 ```
 
-Exemple 2 : afficher tous les noms de fichier composés de quatre caractères
+_Exemple 2_ : afficher tous les noms de fichier composés de quatre caractères
 ```sh
 ls ????
 ```
@@ -61,19 +61,19 @@ un caractère qui ne fait pas partie de la liste 1 5 9 a
 __[!A-Z0-9i]__ : 
 un caractère qui n'est ni une majuscule, ni un chiffre, ni la lettre i
 
-Exemples 1 :
+_Exemples 1_ :
 Fichier dont le nom commence par __f__ ou __o__ et se termine par le caractère "." suiv d'une minuscule.
 ```bash
 ls ls [fo]*.[a-z]
 ```
 
-Exemples 2 :
+_Exemples 2_ :
 Fichier dont le nom comporte en deuxième caractère une majuscule ou un chiffre ou la lettre __i__. Les deux premiers caractères seront suivis d'une chaîne quelconque. 
 ```bash
 ls ?[A-Z0-9i]*
 ```
 
-Exemples 3 :
+_Exemples 3_ :
 Noms de fichier ne commençant pas par une minuscule. 
 ```bash
 ls [!a-z]* # ou ls [![:lower:]]
@@ -85,7 +85,7 @@ ls [![:lower:]]*
 ```
 Une classe de caractère POSIX doit être placée entre []
 
-Exemple 4 :
+_Exemple 4_ :
 Supprimer tous les fichiers dont le nom se termine par __.c__ ou __.s__
 ```bash
 rm -i *.c *.s
@@ -97,7 +97,7 @@ rm -i *.[cs]
 
 __Bonus Perso !__
 
-Exemple 1 :
+_Exemple 1_ :
 Compter le nombre de fichier se terminant par s
 ```sh
 ls -l *.s | wc -l
