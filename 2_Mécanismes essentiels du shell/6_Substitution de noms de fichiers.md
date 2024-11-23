@@ -102,3 +102,5 @@ Compter le nombre de fichier se terminant par s
 ```sh
 ls -l *.s | wc -l
 ```
+
+## 2. Expressions étendues
