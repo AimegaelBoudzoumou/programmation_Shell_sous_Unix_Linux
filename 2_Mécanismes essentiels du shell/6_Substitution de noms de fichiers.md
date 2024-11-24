@@ -104,3 +104,45 @@ ls -l *.s | wc -l
 ```
 
 ## 2. Expressions étendues
+
+Pour utiliser les expressions étendues en bash, il faut préalablement activer l'option __extglob__. Cette option peut s'activer à l'aide de la commanbde __shopt__.
+
+```bash
+shopt -s extglob
+```
+Elle peut se désactiver de cette manière :
+```bash
+shopt -u extglob
+```
+
+Note : voici les fichiers qui seront utilisés dans les exemples suivants.
+```bash
+touch fic
+touch fic866866.log
+touch fic867.log
+touch typescript
+touch fic.log
+touch fic866866866.log
+touch fic868.log
+touch fic866.log
+touch fic866868.log
+touch readme.txt 
+```
+
+Exemple 1 :
+```sh
+shopt -s extglob
+ls fic?(866).log
+```
+
+Cette option pourra être positionnée de manière permanente par l'intermédiaire du fichier __.bashrc__ (Cf. chapitre Paramétrage de l'environnement de travail - Les fichiers d'environnement).
+
+## 2.1. ?(expression)
+L'expression sera présente à ou 1 fois.
+
+Exemple :
+Fichier dont le nom commence par "fic" suivi de 0 ou 1 occurence de "866", suivi de ".log"
+```bash
+ls fic?(866).log
+```
+
