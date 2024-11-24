@@ -138,11 +138,15 @@ ls fic?(866).log
 Cette option pourra être positionnée de manière permanente par l'intermédiaire du fichier __.bashrc__ (Cf. chapitre Paramétrage de l'environnement de travail - Les fichiers d'environnement).
 
 ## 2.1. ?(expression)
-L'expression sera présente à ou 1 fois.
+L'expression sera présente 0 ou 1 fois.
 
 Exemple :
 Fichier dont le nom commence par "fic" suivi de 0 ou 1 occurence de "866", suivi de ".log"
 ```bash
 ls fic?(866).log
 ```
+
+## 2.2. *(expression)
+L'expression sera présente 0 ou n fois.
+
 
