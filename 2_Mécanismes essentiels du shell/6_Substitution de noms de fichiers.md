@@ -193,19 +193,22 @@ Une barre verticale à l'intérieur d'une expression étendue prend le sens de "
 @(expression|expression|...)
 !(expression|expression|...)
 
-_Exemple 1_ : 
-F1ichier dont le nom commence par "fic", suivi de "866" ou "867", suivi de ".log".
+_Exemple 1_ :
+
+Fichier dont le nom commence par "fic", suivi de "866" ou "867", suivi de ".log".
 ```bash
 ls fic@(866|867).log
 ```
 
-_Exemple 2_ : 
+_Exemple 2_ :
+
 Fichier dont le nom commence par "fic", suivi de 1 à n occurrence de "866" ou "868", suivi de ".log".
 ```bash
 ls fic+(866|868).log
 ```
 
-_Exemple 3_ : 
+_Exemple 3_ :
+
 Fichier dont le nom commence par "fic", suivi de 1  occurrence de 1 à n fois de "866" ou de 1 à n fois "868", suivi de ".log".
 ```bash
 ls fic@(+(866)|+(868)).log
