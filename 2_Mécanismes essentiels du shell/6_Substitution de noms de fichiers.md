@@ -188,9 +188,13 @@ ls !(fic*)
 Une barre verticale à l'intérieur d'une expression étendue prend le sens de "ou bien".
 
 ?(expression|expression|...)
+
 *(expression|expression|...)
+
 +(expression|expression|...)
+
 @(expression|expression|...)
+
 !(expression|expression|...)
 
 _Exemple 1_ :
