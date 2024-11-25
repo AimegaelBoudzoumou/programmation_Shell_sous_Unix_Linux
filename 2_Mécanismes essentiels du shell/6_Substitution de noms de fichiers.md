@@ -148,5 +148,65 @@ ls fic?(866).log
 
 ## 2.2. *(expression)
 L'expression sera présente 0 ou n fois.
+Exemple : 
+Fichier dont le nom commence par "fic", suivi de 0 à n occurrence(s) de "866", suivi de ".log"
+```bash
+ls fic*(866).log
+```
 
+## 2.3. +(expression)
+L'expression sera présente entre 1 et n fois.
+Exemple : 
+Fichier dont le nom commence par "fic", suivi d'au moins une occurrence de "866", suivi de ".log"
+```bash
+ls fic+(866).log
+```
 
+## 2.4. @(expression)
+L'expression sera présente exactement 1 fois.
+Exemple : 
+Fichier dont le nom commence par "fic", suivi exactement d'une occurrence de "866", suivi de ".log"
+```bash
+ls fic@(866).log
+```
+
+## 2.5. !(expression)
+L'expression ne sera pas présente.
+Exemple 1 : 
+Fichier dont le nom commence par "fic", suivi d'une expression qui n'est pas la chaîne "866", suivi de ".log"
+```bash
+ls fic!(866).log
+```
+
+Exemple 2 : 
+Fichier dont le nom ne commence pas par "fic".
+```sh
+ls !(fic*)
+```
+
+## 2.6. Alternatives
+Une barre verticale à l'intérieur d'une expression étendue prend le sens de "ou bien".
+
+?(expression|expression|...)
+*(expression|expression|...)
++(expression|expression|...)
+@(expression|expression|...)
+!(expression|expression|...)
+
+Exemple 1 : 
+Fichier dont le nom commence par "fic", suivi de "866" ou "867", suivi de ".log".
+```bash
+ls fic@(866|867).log
+```
+
+Exemple 2 : 
+Fichier dont le nom commence par "fic", suivi de 1 à n occurrence de "866" ou "868", suivi de ".log".
+```bash
+ls fic+(866|868).log
+```
+
+Exemple 2 : 
+Fichier dont le nom commence par "fic", suivi de 1  occurrence de 1 à n fois de "866" ou de 1 à n fois "868", suivi de ".log".
+```bash
+ls fic@(+(866)|+(868)).log
+```
