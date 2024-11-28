@@ -1,5 +1,7 @@
 # Redirections
 
+Contenu :
+
 1. Redirection des sorties en écritures
 1.1. Sortie standard
 1.2. Sortie d'erreur standard
