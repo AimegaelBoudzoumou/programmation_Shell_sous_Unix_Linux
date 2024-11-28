@@ -3,12 +3,12 @@
 Contenu :
 
 1. Redirection des sorties en écritures
-   - Sortie standard
+   -- Sortie standard
    - Sortie d'erreur standard
    - Sortie standard et sortie d'erreur standard
    - Se protéger d'un écrasement involontaire de fichier
    - Eliminer les affichages
-2. Redirection de l'entrée standard ----- 2
+2. Redirection de l'entrée standard
 3. Rediriger les descripteurs 1 et 2 vers le même fichier
 4. La double redirection en lecture
 
