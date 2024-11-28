@@ -3,7 +3,7 @@
 Contenu :
 
 1. Redirection des sorties en écritures
-   -- Sortie standard
+   - Sortie standard
    - Sortie d'erreur standard
    - Sortie standard et sortie d'erreur standard
    - Se protéger d'un écrasement involontaire de fichier
