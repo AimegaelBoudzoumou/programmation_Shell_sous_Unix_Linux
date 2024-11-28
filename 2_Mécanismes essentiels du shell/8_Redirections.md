@@ -17,7 +17,9 @@ Les processus Unix ont, par défaut, leur fichier terminal ouvert trois fois, so
 Un descripteur peut se voir comme un canal de communication.
 
 __Entrée standard :__ descripteur de fichier 0
+
 __Sortie standart :__ descripteur de fichier 1
+
 __Sortie d'erreur standard :__ descripteur de fichier 2
 
 # 1. Redirection des sorties en écritures
