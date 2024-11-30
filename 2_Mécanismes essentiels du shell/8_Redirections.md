@@ -24,6 +24,44 @@ __Sortie d'erreur standard :__ descripteur de fichier 2
 
 # 1. Redirection des sorties en écritures
 ## 1.1. Sortie standard
+
+_Simple redirection_
+
+Syntaxe :
+```sh
+commande 1> fichier
+```
+équivalent à :
+```shell
+commande > fichier
+```
+Le nom du fichier est exprimé en relatif ou en absolu.
+Si le fichier n'existe pas, il est créé. Si le fichier existe déjà, il est écrasé.
+
+Exemple : 
+```bash
+ls > resu
+cat resu
+```
+
+_Double redirection_
+Syntaxe :
+```sh
+commande 1>> fichier
+```
+équivalent à :
+```sh
+commande >> fichier
+```
+Si le fichier n'existe pas, il est créé. Si le fichier existe déjà, il est ouvert en mode ajout.
+
+Exemple : 
+Ajouter le résultat de la commande __date__ à la fin du fichier __resu__ créé précédemment.
+```sh
+date 1>> resu
+cat resu
+```
+
 ## 1.2. Sortie d'erreur standard
 ## 1.3. Sortie standard et sortie d'erreur standard
 ## 1.4. Se protéger d'un écrasement involontaire de fichier 
