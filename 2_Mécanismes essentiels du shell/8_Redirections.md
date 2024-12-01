@@ -23,6 +23,7 @@ __Sortie standart :__ descripteur de fichier 1
 __Sortie d'erreur standard :__ descripteur de fichier 2
 
 # 1. Redirection des sorties en écritures
+
 ## 1.1. Sortie standard
 
 _Simple redirection_
@@ -36,6 +37,7 @@ commande 1> fichier
 commande > fichier
 ```
 Le nom du fichier est exprimé en relatif ou en absolu.
+
 Si le fichier n'existe pas, il est créé. Si le fichier existe déjà, il est écrasé.
 
 Exemple : 
@@ -45,6 +47,7 @@ cat resu
 ```
 
 _Double redirection_
+
 Syntaxe :
 ```sh
 commande 1>> fichier
@@ -66,12 +69,14 @@ cat resu
 ## 1.2. Sortie d'erreur standard
 
 _Simple redirection_
+
 Syntaxe :
 ```sh
 commande 2> fichier
 ```
 
-Exemple : 
+Exemple :
+
 Redirection de la sortie d'erreur standard. Les messages d'erreur partent dans le fichier d'erreur, les résultats restent à l'écran.
 
 ```sh
@@ -95,7 +100,6 @@ ls -z
 ls - z 2>> erreur
 cat erreur
 ```
-
 
 ## 1.3. Sortie standard et sortie d'erreur standard
 ## 1.4. Se protéger d'un écrasement involontaire de fichier 
