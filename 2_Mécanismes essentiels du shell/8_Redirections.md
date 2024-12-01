@@ -63,6 +63,36 @@ cat resu
 ```
 
 ## 1.2. Sortie d'erreur standard
+
+_Simple redirection_
+Syntaxe :
+```sh
+commande 2> fichier
+```
+
+Exemple : 
+Redirection de la sortie d'erreur standard. Les messages d'erreur partent dans le fichier d'erreur, les résultats restent à l'écran.
+
+```sh
+find / -name passwd 2> erreur
+cat erreur
+```
+
+_Double redirection_
+Elle permet de concatener les messages d'erreur d'une commande au contenu d'un fichier existant.
+Syntaxe :
+```sh
+commande 2>> fichier
+```
+Exemple : 
+Concatenation des messages d'erreur de __ls -z__ à la fin du fichier __erreur__.
+```bash
+ls -z
+ls - z 2>> erreur
+cat erreur
+```
+
+
 ## 1.3. Sortie standard et sortie d'erreur standard
 ## 1.4. Se protéger d'un écrasement involontaire de fichier 
 ## 1.5. Eliminer les affichages
