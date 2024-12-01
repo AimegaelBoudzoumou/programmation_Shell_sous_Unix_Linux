@@ -55,7 +55,8 @@ commande >> fichier
 ```
 Si le fichier n'existe pas, il est créé. Si le fichier existe déjà, il est ouvert en mode ajout.
 
-Exemple : 
+Exemple :
+
 Ajouter le résultat de la commande __date__ à la fin du fichier __resu__ créé précédemment.
 ```sh
 date 1>> resu
@@ -79,12 +80,15 @@ cat erreur
 ```
 
 _Double redirection_
+
 Elle permet de concatener les messages d'erreur d'une commande au contenu d'un fichier existant.
+
 Syntaxe :
 ```sh
 commande 2>> fichier
 ```
 Exemple : 
+
 Concatenation des messages d'erreur de __ls -z__ à la fin du fichier __erreur__.
 ```bash
 ls -z
